@@ -1,6 +1,7 @@
 body{
     margin: 0;
-    padding-top: 800px
+    padding-top: 800px;
+    text-align: center;
 }
 
 .profile{
@@ -26,7 +27,7 @@ h1 {
 }
 
 #bio{
-    padding: 50px;
+    padding: 300px;
     text-align: center;
     font-size: 42px;
 }
@@ -57,11 +58,16 @@ p {
 .menu {
     list-style: none;
     font-family: sans-serif;
-    position: absolute;
+    position: fixed;
     top: 10px;
     left: 40px;
     z-index: 10;
     cursor: pointer;
+    background-color: bisque;
+    background-blend-mode: hue;
+    text-align: center;
+    opacity: 0.6;
+    font-size: 25px;
 }
 
 .link {
@@ -73,9 +79,22 @@ p {
     padding-bottom: 5px;
     font: fantasy;
     font-size 35px;
+    text-align: center;
     
 }
 
 .link:hover {
-    background-color: dodgerblue;
+    background-color: indianred;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+.article:hover {
+    color: fuchsia;
 }
